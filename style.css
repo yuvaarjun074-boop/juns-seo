@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0b0f1a;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  position: sticky;
+  top: 0;
+  background: #0b0f1a;
+  z-index: 10;
+}
+
+.logo span {
+  color: #00f7ff;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero span {
+  color: #00f7ff;
+}
+
+/* BUTTON */
+.neon-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: 2px solid #00f7ff;
+  color: #00f7ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  background: #00f7ff;
+  color: #000;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 10%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #00f7ff;
+}
+
+/* SERVICES */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #12182b;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #00f7ff40;
+}
+
+/* ABOUT */
+.text {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+/* BLOG */
+.blog-list {
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+}
+
+.blog-list li {
+  margin-bottom: 15px;
+}
+
+/* CONTACT */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  background: #12182b;
+  border: none;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #050812;
+}
